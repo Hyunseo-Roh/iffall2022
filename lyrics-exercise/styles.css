@@ -1,0 +1,35 @@
+.background {
+    display: block;
+    text-align: center;
+    background-color: rgb(250, 247, 211);
+}
+
+.title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: rgb(255, 56, 122);
+    text-shadow: 4px 4px 4px aquamarine;
+}
+
+#TITLE {
+    padding-top: 10px;
+}
+
+h1 {
+    margin-block-end: 0.2em;
+}
+
+h2 {
+    margin-block-start: 0.2em;
+}
+
+hr {
+    width: 400px;
+    height: 0.05px;
+}
+
+div {
+    text-align: center;
+    color: salmon;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
