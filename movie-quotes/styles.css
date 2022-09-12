@@ -1,0 +1,69 @@
+html {
+    display: block;
+    margin: 20px;
+    background-color: gainsboro;
+}
+
+.BIG {
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: red;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 1px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color:white;
+}
+
+h3{
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:200;
+    color:black;
+}
+
+.TEXT {
+    display: block;
+    margin: auto;
+}
+
+.Venkman {
+    color: rgb(255, 116, 255);
+}
+
+.Dana {
+    color: rgb(54, 54, 251);
+}
+
+.Mayor {
+    color: rgb(104, 83, 222);
+}
+
+.Ray {
+    color: rgb(26, 159, 92);
+}
+
+.Egon {
+    color: yellow;
+}
+
+.Winston {
+    color: coral;
+}
