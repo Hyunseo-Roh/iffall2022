@@ -1,0 +1,182 @@
+html {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+  }
+
+body {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 0.5%;
+    margin-bottom: 0.25%;
+}
+
+h4 {
+    font-size: 0.6rem;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.FontWeight {
+    text-align: left;
+    margin-top: 0;
+}
+
+.light{
+    text-align: left;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.normal{
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.semibold {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.bold {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.style-normal{
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.style-italic{
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-minus {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.05em;
+}
+
+.space-normal {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.space-normal2 {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5em;
+}
+
+.space-normal3 {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1em;
+}
+
+.space-normal4 {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3em;
+}
+
+.none{
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.underline {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.line-through {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+.overline {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: overline;
+}
+
+.nonetransform {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+}
+
+.uppercase {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-align: left;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
