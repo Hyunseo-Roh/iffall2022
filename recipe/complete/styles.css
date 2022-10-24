@@ -1,0 +1,182 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    font-size: 14pt;
+    background-color: antiquewhite;
+}
+
+@media all and (max-width: 1024px) {
+    html { 
+        font-size: 14pt;
+        margin: auto; }
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+@media all and (max-width:640px) {
+    section {
+        height: auto;
+        margin: auto;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: block;}
+}
+
+.content-area {
+    background-image:url(https://www.beyondkimchee.com/wp-content/uploads/2021/09/korean-spicy-pork-7-800x1130.jpg);
+    background-size: cover;
+    background-position: center 70%;
+    padding: 1% 5% 50% 50%;
+    height: 50%;
+    width: auto;
+    position: relative;
+    display: block;
+}
+
+.cover {
+    width: 140%;
+    color: darkorange;
+    background-color: rgb(245, 245, 220, 0.85);
+	padding: 20px;
+    margin: 0;
+    transform: translate(-20%);
+}
+
+@media all and (max-width:640px) {
+    cover {
+        height: auto;
+        margin: auto;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: block;}
+}
+
+h1 {
+    text-shadow: 3px 3px 0 beige;
+}
+
+h5 {
+    line-height: 20px;
+}
+
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    height: 100px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 3%;
+    
+}
+
+tr {
+    word-spacing: 0.25em;
+}
+
+th, td {
+    border-left: 1px solid #444444;
+    line-height: 30px;
+}
+
+th:first-child, td:first-child {
+    border-left: none;
+}
+  
+.prepare {
+    padding: 2px 0;
+}
+
+#ready {
+    margin-top: 20px;
+    border-top: 1px solid #444444;
+}
+
+h3, h4 {
+    font-weight: 600;
+}
+
+ul {
+    margin-top: 3px;
+}
+
+.ingredients, .instructions {
+    font-weight: 300;
+}
+
+.seasoning {
+    line-height: 27px;
+    font-weight: 200;
+}
+
+.grid img {
+    width: 90%;
+    height: 80%;
+}
+
+.grid {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.grid li {
+    display: block;
+    width: 25%;
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 1rem;
+}
+
+.using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.using-grid li {
+    width: 100%;
+}
+
+.grid-2 img {
+    width: 95%;
+    height: 80%;
+}
+
+.grid-2 {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0;
+}
+
+.grid-2 li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 1rem;
+}
+
+.tips {
+    font-weight: 300;
+}
+
+.nutrition {
+    display: inline-block;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    margin: 0 9px 30px 20px;
+}
+
