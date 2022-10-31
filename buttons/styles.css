@@ -1,0 +1,539 @@
+a#btn_cocacola {
+    display: inline-block;
+    margin: auto;
+	margin-top: 26px;
+    padding: 63px 0 0 0;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    color: red;
+    line-height: 40px;
+    width: 200px;
+    height: 136px;
+    border: 5px solid white;
+    border-radius: 100%;    
+    transition: all 0.2s ease-in-out;}
+
+a#btn_cocacola:hover {
+    color: black;
+    background-color: red;
+    font-size: 45px;
+    border: 3px solid black;
+}
+
+a#btn_apple {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    margin-right: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.apple {
+    position: relative;
+    left: 35px;
+}
+
+.appleicon {
+    position: absolute;
+}
+
+.fa-circle {
+    color: white;
+    font-size: 5px;
+    position: absolute;
+    top: 6px;
+    left: 34px;
+    transition: all 0.1s ease-out;
+}
+
+a#btn_apple:hover .fa-circle {
+    color: white;
+    transform: translate(-120%, 300%) rotate(180deg) scale(2.4);
+}
+
+a#btn_nerf {
+    display: inline-block;
+    margin: auto;
+	margin-top: 87px;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: all 0.1s linear;
+    z-index: 1;
+    position: relative;
+}
+
+a#btn_nerf .fa-crosshairs {
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    top: -13px;
+    left: -20px;
+    z-index: 2;
+}
+
+a#btn_nerf:hover {
+    color: yellow;
+}
+
+a#btn_nerf:hover .fa-crosshairs {
+    font-size: 150px;
+    color: red;
+    opacity: 0.5;
+    transform: translate(1%, -13%);
+}
+
+a#btn_ideo {
+    display: inline-block;
+    margin: auto;
+	margin-top: 90px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+    position: relative;
+    padding: 10px;
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+}
+
+a#btn_ideo:hover {
+    box-shadow: inset 0 0 0 3px #000, 0 0 1px rgb(0 0 0 / 0%);
+}
+
+a#btn_samsung {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    color: royalblue;
+    transition-duration: 0.7s;
+    transition-property: border-radius;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    position: relative;
+}
+
+a#btn_samsung:hover {
+    border-radius: 2em;
+    color: white;
+    background-color: royalblue;
+    padding: 0px 10px 10px 10px;
+}
+
+a#btn_dimecitycycles {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: darkorange;
+    transition: all 0.3s;
+}
+
+a#btn_dimecitycycles:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a#btn_cartoonnetwork {
+    display: inline-block;
+    margin: auto;
+	margin-top: 90px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.1s ease-in-out;
+    background: transparent
+}
+
+a#btn_cartoonnetwork:hover {
+    border: 5px solid aquamarine;
+    border-radius: 50px;
+    padding: 10px;
+    color: black;
+}
+
+a#btn_nike {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+
+a#btn_nike:hover {
+    transform: skew(-20deg);
+}
+
+a#btn_teslamotors {
+    display: inline-block;
+    margin: auto;
+	margin-top: 90px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    color: black;
+    position: relative;
+    border: 1px solid gold;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.fa-plug-circle-bolt {
+    color: gold;
+}
+
+a#btn_teslamotors:hover::after {
+   left: 30%;
+}
+
+a#btn_teslamotors::after{
+    content: "";
+    height: 190px;
+    left: -150px;
+    opacity: 0.3;
+    position: absolute;
+    top: -65px;
+    background: gold;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    width: 100px;
+    z-index: -1;
+}
+
+a#btn_moo {
+    display: inline-block;
+    margin: auto;
+	margin-top: 95px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;   
+    color: black;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+a#btn_moo:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+
+a#btn_fitbit {
+    display: inline-block;
+    margin: auto;
+	margin-top: 105px;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;   
+    color: seagreen;
+    position: relative;
+    overflow: hidden;
+}
+
+a#btn_fitbit:hover::before {
+    right: 0;
+}
+
+a#btn_fitbit::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: seagreen;
+    height: 4px;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+a#btn_explodingkittens {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;  
+    color: gold; 
+    position: relative;
+}
+
+.fa-bomb {
+    color: black;
+}
+
+a#btn_explodingkittens:hover {
+    animation: vibration 0.1s infinite;
+}
+
+@keyframes vibration {
+    from {
+      transform: rotate(2deg);
+    }
+    to {
+      transform: rotate(-2deg);
+    }
+}
+
+a#btn_stjude {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: forestgreen;
+}
+
+a#btn_stjude:hover {
+    animation-name: hvr-pulse;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hvr-pulse {
+    40% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(0.9);}
+}
+
+a#btn_newyorker {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: black;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    overflow: hidden;
+}
+
+a#btn_newyorker:hover::before {
+    left: 0;
+    right: 0;
+}
+
+a#btn_newyorker::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51;
+    right: 51%;
+    bottom: 0;
+    background: black;
+    height: 2px;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+a#btn_foreflight {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: skyblue;
+    transform: perspective(1px) translateZ(0);
+}
+
+a#btn_foreflight:hover {
+    animation-name: hvr-icon-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes hvr-icon-up {
+    0%, 50%, 100% {
+        transform: translateY(0);
+    }
+    25%, 75% {
+        transform: translateY(-10px);
+    }
+}
+
+a#btn_npr {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 0.3s;
+}
+
+a#btn_npr:hover {
+    background-color: #237da6;
+    color: white;
+    border: 5px solid #237da6;
+    position: inherit;
+}
+
+a#btn_tuckerallen {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Domine', serif;
+    font-weight: 400;
+    color: mediumseagreen;
+    transition-property: color;
+    transition-duration: 0.3s;
+    position: relative;
+}
+
+a#btn_tuckerallen:hover {
+    color: white;
+}
+
+a#btn_tuckerallen::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    bottom: 0;
+    left: -5px;
+    right: 0;
+    height: 50px;
+    width: 260px;
+    background: rgb(48, 148, 93);
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+a#btn_tuckerallen:hover::before {
+    transform: scaleX(1);
+}
+
+a#btn_velocity {
+    display: inline-block;
+    margin: auto;
+	margin-top: 105px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: tomato;
+    position: relative;
+    transition-duration: 0.3s;;
+}
+
+a#btn_velocity:hover {
+    transform: translateX(20px);
+}
+
+a#btn_instagram {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+a#btn_instagram:hover {
+    animation-name: hvr-push;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    background-color: deeppink;
+    color: white;
+    width: 220px;
+}
+
+@keyframes hvr-push {
+    50% {
+        transform: scale(0.7);
+    }
+    100% {
+        /* -webkit-transform: scale(1); */
+        transform: scale(1);
+    }
+}
+
+a#btn_facebook {
+    display: inline-block;
+    margin: auto;
+	margin-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: blue;
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+a#btn_facebook:hover {
+    color: white;
+}
+
+a#btn_facebook::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -8px;
+    right: 0;
+    bottom: 0;
+    background: blue;
+    transform: scaleX(0);
+    width: 200px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transform-origin: 0 50%;
+    transition-timing-function: ease-out;
+}
+
+a#btn_facebook:hover::before {
+    transform: scaleX(1);
+}
